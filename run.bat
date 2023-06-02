@@ -1,1 +1,1 @@
-java -cp .:lib/* br.nnpe.maze.MazeGame
+java -cp .:lib/*;bin br.nnpe.maze.MazeGame
