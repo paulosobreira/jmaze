@@ -1,1 +1,2 @@
-java -cp .:lib/*:bin br.nnpe.maze.MazeGame
+#!/bin/bash
+java -jar target/jmaze-jar-with-dependencies.jar

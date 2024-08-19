@@ -97,7 +97,7 @@ public class MazeGame extends javax.swing.JFrame {
 		jRadioButtonMenuItem3 = new javax.swing.JRadioButtonMenuItem();
 		buttonGroup2 = new javax.swing.ButtonGroup();
 		jSeparator1 = new javax.swing.JSeparator();
-		setTitle("Maze Game");
+		setTitle("JMaze - Paulo Sobreira");
 
 		addKeyListener(new KeyListener() {
 			public void keyPressed(KeyEvent e) {
@@ -450,7 +450,7 @@ public class MazeGame extends javax.swing.JFrame {
 			mazePanel.invalidate();
 
 			final Point ptAtual = new Point(mg.getStartPt().x, mg.getStartPt().y);
-			final JLabel jogadorLabel = new JLabel("< vc");
+			final JLabel jogadorLabel = new JLabel("");
 			jogadorLabel.setForeground(Color.YELLOW);
 
 			BufferedImage srcBufferedImage2 = new BufferedImage(14, 14, BufferedImage.TYPE_INT_ARGB);
